@@ -8,7 +8,6 @@ import About from './components/About.jsx'
 function Layout() {
   return (
     <>
-    <Header/>
     <Outlet />
     <About/>
     <Footer/>

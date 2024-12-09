@@ -6,7 +6,6 @@ const Dashboard = () => {
       {/* Sidebar */}
       <aside className="fixed top-0 left-0 h-screen w-16 bg-gray-900 flex flex-col space-y-4 items-center pt-4 text-white">
         <div className="w-10 h-10 bg-gray-700 rounded-lg">
-            <img src="" alt="image"/>
         </div>
         <div className="w-10 h-10 bg-gray-700 rounded-lg">
             <img src="" alt="image"/>

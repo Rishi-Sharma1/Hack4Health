@@ -1,10 +1,12 @@
 import React from "react";
 import { Link,NavLink } from "react-router-dom";
+import Header from "./Header";
 
 
 function Home() {
   return (
     <>
+    <Header/>
     <div className="bg-[url('https://i.pinimg.com/736x/32/a0/72/32a072a6ab6982123b1017639e1ec08f.jpg')] bg-no-repeat bg-cover">
     <section className="text-center p-12">
       <h1 className="text-4xl font-bold text-black mb-4 bg-white bg-transparent py-1 mx-20">
