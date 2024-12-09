@@ -2,6 +2,7 @@ import React from "react";
 import { Link,NavLink } from "react-router-dom";
 import Header from "./Header";
 import './Style.css';
+import About from "./About";
 
 function Home() {
   return (
@@ -44,6 +45,7 @@ function Home() {
       </div>
     </section>
     </div>
+    <About/>
     </>
   );
 }
