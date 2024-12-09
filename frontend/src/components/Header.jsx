@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-3 bg-gradient-to-r from-gray-500 via-gray-600 to-black">
+    <header className="flex justify-between items-center p-3 bg-gradient-to-r from-black via-gray-600 to-black">
       <h1 className="text-xl font-bold text-white">AIPatrn</h1>
       <nav className="flex space-x-3 text-gray-300">
         <ul className="space-x-4 items-center justify-center text-center">
