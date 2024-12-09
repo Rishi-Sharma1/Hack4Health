@@ -18,32 +18,12 @@ export default function Header() {
                 </li>
                 <li>
                     <NavLink
-                    to="/generator"
+                    to="/dashboard"
                     className={({ isActive }) =>
                         isActive ? "text-black font-bold" : "hover:text-black"
                     }
                     >
-                    Generator
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink
-                    to="/pricing"
-                    className={({ isActive }) =>
-                        isActive ? "text-black font-bold" : "hover:text-black"
-                    }
-                    >
-                    Pricing
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink
-                    to="/blog"
-                    className={({ isActive }) =>
-                        isActive ? "text-black font-bold" : "hover:text-black"
-                    }
-                    >
-                    Blog
+                    Report Submission
                     </NavLink>
                 </li>
                 <li>
@@ -58,36 +38,6 @@ export default function Header() {
                 </li>
             </ul>
             <ul className='px-2'>
-                <li>
-                    <NavLink
-                    to="/generator"
-                    className={({ isActive }) =>
-                        isActive ? "text-black font-bold" : "hover:text-black"
-                    }
-                    >
-                    Features
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink
-                    to="/pricing"
-                    className={({ isActive }) =>
-                        isActive ? "text-black font-bold" : "hover:text-black"
-                    }
-                    >
-                    Collections
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink
-                    to="/blog"
-                    className={({ isActive }) =>
-                        isActive ? "text-black font-bold" : "hover:text-black"
-                    }
-                    >
-                    Careers
-                    </NavLink>
-                </li>
             </ul>
             <div className="flex items-center lg:order-2">
                         <Link

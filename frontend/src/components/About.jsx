@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg-gray-200 min-h-screen p-8">
+    <div className="bg-gray-200 min-h-screen p-8 bg-[url('https://i.pinimg.com/736x/a6/ed/7d/a6ed7d9c03e705adb64df09ba6e07afe.jpg')] bg-no-repeat bg-cover">
       {/* Introduction Section */}
       <section className="bg-white shadow-md rounded-lg p-8 mb-8" style={{ backgroundColor: '#f9f9f9' }}>
         <h1 className="text-3xl font-bold text-gray-800 mb-4">
