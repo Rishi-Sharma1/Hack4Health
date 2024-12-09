@@ -2,9 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg-gray-50 min-h-screen p-8">
+    <div className="bg-gray-200 min-h-screen p-8">
       {/* Introduction Section */}
-      <section className="bg-white shadow-md rounded-lg p-8 mb-8">
+      <section className="bg-white shadow-md rounded-lg p-8 mb-8" style={{ backgroundColor: '#f9f9f9' }}>
         <h1 className="text-3xl font-bold text-gray-800 mb-4">
           Introduction to Doctor AI Report Expert
         </h1>
@@ -34,47 +34,49 @@ function About() {
         </h2>
 
         {/* Function 1 */}
-        <div className="bg-white shadow-md rounded-lg p-6 mb-6">
-          <h3 className="text-xl font-bold text-gray-800 mb-2">
-            Interpretation of X-ray Reports
-          </h3>
-          <p className="text-gray-700">
-            <strong>Example:</strong> Identifying a fracture in a wrist X-ray report.
-          </p>
-          <p className="text-gray-700 mt-2">
-            <strong>Scenario:</strong> A user uploads an X-ray report of the wrist, and Doctor AI
-            Report Expert highlights the presence of a fracture, suggesting the need for orthopedic
-            consultation.
-          </p>
-        </div>
+        <div className="flex space-x-4">
+          <div className="bg-white shadow-md rounded-lg p-6 mb-6">
+            <h3 className="text-xl font-bold text-gray-800 mb-2 before:bg-[url('https://www.yeschat.ai/images/svg/example.svg')]">
+              Interpretation of X-ray Reports
+            </h3>
+            <p className="text-gray-700">
+              <strong>Example:</strong> Identifying a fracture in a wrist X-ray report.
+            </p>
+            <p className="text-gray-700 mt-2">
+              <strong>Scenario:</strong> A user uploads an X-ray report of the wrist, and Doctor AI
+              Report Expert highlights the presence of a fracture, suggesting the need for orthopedic
+              consultation.
+            </p>
+          </div>
 
-        {/* Function 2 */}
-        <div className="bg-white shadow-md rounded-lg p-6 mb-6">
-          <h3 className="text-xl font-bold text-gray-800 mb-2">
-            Analysis of Blood Test Results
-          </h3>
-          <p className="text-gray-700">
-            <strong>Example:</strong> Highlighting elevated blood sugar levels.
-          </p>
-          <p className="text-gray-700 mt-2">
-            <strong>Scenario:</strong> Upon reviewing a blood test report, the tool points out
-            elevated glucose levels, hinting at the possibility of diabetes and advising follow-up
-            with an endocrinologist.
-          </p>
-        </div>
+          {/* Function 2 */}
+          <div className="bg-white shadow-md rounded-lg p-6 mb-6">
+            <h3 className="text-xl font-bold text-gray-800 mb-2">
+              Analysis of Blood Test Results
+            </h3>
+            <p className="text-gray-700">
+              <strong>Example:</strong> Highlighting elevated blood sugar levels.
+            </p>
+            <p className="text-gray-700 mt-2">
+              <strong>Scenario:</strong> Upon reviewing a blood test report, the tool points out
+              elevated glucose levels, hinting at the possibility of diabetes and advising follow-up
+              with an endocrinologist.
+            </p>
+          </div>
 
-        {/* Function 3 */}
-        <div className="bg-white shadow-md rounded-lg p-6 mb-6">
-          <h3 className="text-xl font-bold text-gray-800 mb-2">
-            Identification of Abnormalities in Medical Reports
-          </h3>
-          <p className="text-gray-700">
-            <strong>Example:</strong> Detecting abnormalities in a chest X-ray.
-          </p>
-          <p className="text-gray-700 mt-2">
-            <strong>Scenario:</strong> The tool analyzes a chest X-ray report and flags potential
-            signs of pneumonia, recommending further evaluation by a healthcare professional.
-          </p>
+          {/* Function 3 */}
+          <div className="bg-white shadow-md rounded-lg p-6 mb-6">
+            <h3 className="text-xl font-bold text-gray-800 mb-2">
+              Identification of Abnormalities in Medical Reports
+            </h3>
+            <p className="text-gray-700">
+              <strong>Example:</strong> Detecting abnormalities in a chest X-ray.
+            </p>
+            <p className="text-gray-700 mt-2">
+              <strong>Scenario:</strong> The tool analyzes a chest X-ray report and flags potential
+              signs of pneumonia, recommending further evaluation by a healthcare professional.
+            </p>
+          </div>
         </div>
       </section>
     </div>

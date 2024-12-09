@@ -2,7 +2,7 @@ import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
 export default function Header() {
     return (
-        <header className="flex justify-between items-center p-3 bg-white shadow-md">
+        <header className="flex justify-between items-center p-3" style={{ backgroundColor: '#f0f0f0' }}>
             <h1 className="text-xl font-bold text-gray-800">AIPatrn</h1>
             <nav className="space-x-3 text-gray-600 flex">
             <ul className='px-2'>
